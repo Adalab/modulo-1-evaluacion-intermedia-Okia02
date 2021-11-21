@@ -1,3 +1,6 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
 .header {
   background-color: white;
   top: 0;
@@ -19,8 +22,8 @@
 .nav-bar {
   padding-bottom: 13px;
 }
-.link {
-  font-family: "Rubik", sans-serif;
+.link { 
+  padding-right: 20px;
   font-size: 16px;
   color: #4a4a4a;
 }
@@ -29,8 +32,11 @@
   flex-direction: row;
   justify-content: center;
 }
-.blog {
-  padding-right: 20px;
+.blog {  
+  text-transform: uppercase;
+}
+.contact {
+  text-transform: uppercase;
 }
 .main {
   background-color: #3cdbc0;
@@ -39,13 +45,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-transform: capitalize;
 }
 .slogan {
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
   font-size: 30px;
   text-align: center;
-  width: 50%;
+  word-spacing: 100vw;
 }
 
 @media all and (min-width: 768px) {
@@ -53,16 +59,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .top {
-    display: flex;
+  .top {   
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
   .logo {
     padding-left: 30px;
   }
-  .contact {
+  .link {
     padding-right: 30px;
   }
   .slogan {
